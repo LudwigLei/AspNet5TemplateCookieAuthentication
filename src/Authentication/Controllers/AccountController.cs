@@ -18,7 +18,8 @@ namespace Authentication.Controllers
         {
             ViewData["ReturnUrl"] = returnUrl;
 
-            if (userName == password)
+            if (!string.IsNullOrWhiteSpace(userName) && 
+                userName == password)
             {
                 var claims = new List<Claim>
                     {
