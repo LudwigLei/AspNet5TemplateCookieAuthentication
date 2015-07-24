@@ -1,5 +1,4 @@
-﻿using Authentication.Models;
-using Microsoft.AspNet.Mvc;
+﻿using Microsoft.AspNet.Mvc;
 using System.Collections.Generic;
 using System.Security.Claims;
 
@@ -24,7 +23,7 @@ namespace Authentication.Controllers
                 var claims = new List<Claim>
                     {
                         new Claim("sub", userName),
-                        new Claim("name", "bob"),
+                        new Claim("name", "Bob"),
                         new Claim("email", "bob@smith.com")
                     };
 
