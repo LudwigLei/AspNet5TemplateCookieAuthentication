@@ -1,1 +1,1 @@
-The simplest possible ASP.NET 5 / MVC 6 Sample with Cookie-based Authentication
+The simplest possible ASP.NET 5 / MVC 6 sample with cookie-based authentication
